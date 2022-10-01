@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card:hover{
+  box-shadow: 10px 9px 10px 3px #888888;
+  transition: all 0.5s ease-in-out;
+}
+
+.submit{
+  border-radius: #232323;
+}
+.submit:hover{
+  background-color: #242424;
+}
+
+
+.trash{
+  width: 23px;
+  cursor: pointer;
+  
+}
+
+.edit { 
+  width: 23px;
+  cursor: pointer;
+}
+
+.logopic{
+  width: 23px;
+  filter: invert(1);
+}
+
+/* .alert{
+  height: 9vh;
+} */
